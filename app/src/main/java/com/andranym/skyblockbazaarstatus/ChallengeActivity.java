@@ -115,25 +115,25 @@ public class ChallengeActivity extends AppCompatActivity {
 
         //regionRetrieve Data
         final SharedPreferences data = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        final boolean solved1 = data.getBoolean("solvedChallenge1",false);
-        final boolean solved2 = data.getBoolean("solvedChallenge2",false);
-        final boolean solved3 = data.getBoolean("solvedChallenge3",false);
-        final boolean solved4 = data.getBoolean("solvedChallenge4",false);
-        final boolean solved5 = data.getBoolean("solvedChallenge5",false);
-        final boolean solved6 = data.getBoolean("solvedChallenge6",false);
-        final boolean solved7 = data.getBoolean("solvedChallenge7",false);
-        final boolean solved8 = data.getBoolean("solvedChallenge8",false);
-        final boolean solved9 = data.getBoolean("solvedChallenge9",false);
+        final boolean solved1 = data.getBoolean("solvedChallenge1",true);
+        final boolean solved2 = data.getBoolean("solvedChallenge2",true);
+        final boolean solved3 = data.getBoolean("solvedChallenge3",true);
+        final boolean solved4 = data.getBoolean("solvedChallenge4",true);
+        final boolean solved5 = data.getBoolean("solvedChallenge5",true);
+        final boolean solved6 = data.getBoolean("solvedChallenge6",true);
+        final boolean solved7 = data.getBoolean("solvedChallenge7",true);
+        final boolean solved8 = data.getBoolean("solvedChallenge8",true);
+        final boolean solved9 = data.getBoolean("solvedChallenge9",true);
 
-        final boolean solved1display = data.getBoolean("solvedChallenge1display",false);
-        final boolean solved2display = data.getBoolean("solvedChallenge2display",false);
-        final boolean solved3display = data.getBoolean("solvedChallenge3display",false);
-        final boolean solved4display = data.getBoolean("solvedChallenge4display",false);
-        final boolean solved5display = data.getBoolean("solvedChallenge5display",false);
-        final boolean solved6display = data.getBoolean("solvedChallenge6display",false);
-        final boolean solved7display = data.getBoolean("solvedChallenge7display",false);
-        final boolean solved8display = data.getBoolean("solvedChallenge8display",false);
-        final boolean solved9display = data.getBoolean("solvedChallenge9display",false);
+        final boolean solved1display = data.getBoolean("solvedChallenge1display",true);
+        final boolean solved2display = data.getBoolean("solvedChallenge2display",true);
+        final boolean solved3display = data.getBoolean("solvedChallenge3display",true);
+        final boolean solved4display = data.getBoolean("solvedChallenge4display",true);
+        final boolean solved5display = data.getBoolean("solvedChallenge5display",true);
+        final boolean solved6display = data.getBoolean("solvedChallenge6display",true);
+        final boolean solved7display = data.getBoolean("solvedChallenge7display",true);
+        final boolean solved8display = data.getBoolean("solvedChallenge8display",true);
+        final boolean solved9display = data.getBoolean("solvedChallenge9display",true);
         //endregion
 
         //Make random number generator
